@@ -56,12 +56,12 @@ def chat():
             st.markdown(message['content'])
 
     # Get user input
-    st.sidebar.subheader("created by Himanshu ")
+    st.sidebar.subheader(" ")
     st.sidebar.image(r"pngwing.com.png")
     prompt = st.sidebar.text_input('Ask any question...')
 
-    txt = """Baymax is an advanced chatbot designed to provide accurate and helpful information on various diseases, including Diabetes, Heart Diseases, Kidney Diseases, and more. 
-            Whether you have questions about symptoms, treatments, or prevention strategies, Baymax is here to assist you."""
+    txt = """Cypher is an advanced chatbot designed to provide accurate and helpful information on various diseases, including Diabetes, Heart Diseases, Kidney Diseases, and more. 
+            Whether you have questions about symptoms, treatments, or prevention strategies, Cypher is here to assist you."""
     st.sidebar.info(txt)
 
     # Process user input and AI response
@@ -81,7 +81,7 @@ def chat():
         # Send message to AI and get response (stream for animation)
         query = f"""
             Remember all these-
-            1. your name is Baymax and you are an assiatant created by Himanshu sharma and your job is to answer all the question related to  all kind of  disease.
+            1. your name is Cypher and you are an assiatant created by Himanshu sharma and your job is to answer all the question related to  all kind of  disease.
             2. don't mention about you are created by google or your name is gemini anywhere.
             3. answer all question in brief untill asked for detailed explanation.
             4. please make sure to mention symptoms,cause ,precaution,medication in organized manner.
@@ -98,7 +98,7 @@ def chat():
         # Display assistant response in chat message container
         with st.chat_message(
                 name='AI',
-                avatar='✨',
+                avatar='👁️',
         ):
             message_placeholder = st.empty()
             full_response = ''
