@@ -56,7 +56,7 @@ def chat():
             st.markdown(message['content'])
 
     # Get user input
-    st.sidebar.subheader(" ")
+    st.sidebar.subheader("CYPHER THE CHATBOT ")
     st.sidebar.image(r"pngwing.com.png")
     prompt = st.sidebar.text_input('Ask any question...')
 
