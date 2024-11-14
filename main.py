@@ -2,8 +2,13 @@ import time
 import os
 import streamlit as st
 import google.generativeai as genai
+from dotenv import load_dotenv
 
-genai.configure(api_key="AIzaSyCn5BtlnY1xwzvQm_MgMlUIHIxJ_AyT7Tk")
+
+load_dotenv()
+
+
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 st.markdown("""
     <style>
