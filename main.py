@@ -57,7 +57,7 @@ def chat():
 
     # Get user input
     st.sidebar.subheader("CYPHER THE CHATBOT ")
-    st.sidebar.image(r"")
+    st.sidebar.image(r"[CITYPNG.COM]HD Cypher Chibi Agent Valorant Character Vector PNG - 3500x3500.png")
     prompt = st.sidebar.text_input('Ask any question...')
 
     txt = """Cypher is an advanced chatbot designed to provide accurate and helpful information on various diseases, including Diabetes, Heart Diseases, Kidney Diseases, and more. 
