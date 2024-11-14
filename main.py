@@ -57,7 +57,7 @@ def chat():
 
     # Get user input
     st.sidebar.subheader("CYPHER THE CHATBOT ")
-    st.sidebar.image(r"pngwing.com.png")
+    st.sidebar.image(r"")
     prompt = st.sidebar.text_input('Ask any question...')
 
     txt = """Cypher is an advanced chatbot designed to provide accurate and helpful information on various diseases, including Diabetes, Heart Diseases, Kidney Diseases, and more. 
