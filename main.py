@@ -57,7 +57,7 @@ def chat():
 
     # Get user input
     # st.sidebar.subheader("")
-    st.sidebar.image(r"C:\gemini-pro-streamlit-chatbot-main\gemini-pro-streamlit-chatbot-main\pngwing.com.png")
+    st.sidebar.image(r"pngwing.com.png")
     prompt = st.sidebar.chat_input('Ask any question...')
 
     txt = """Baymax is an advanced chatbot designed to provide accurate and helpful information on various diseases, including Diabetes, Heart Diseases, Kidney Diseases, and more. 
