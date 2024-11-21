@@ -8,7 +8,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+#genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key="AIzaSyC8Iym0zY3dLzoyN6whchwubnF2tyc6aA8")
 
 st.markdown("""
     <style>
